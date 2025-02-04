@@ -9,7 +9,10 @@ as the JAR program can be placed in any directory.
 
 ## To build
   Run the following command:
-  ```sh build.sh```
+  
+  ```
+  sh build.sh
+  ```
   
   Execute build.sh will build the program, it requires Java JDK (Java SE 7 or later)
   and Linux environment (To run `sh` command)
