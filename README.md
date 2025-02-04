@@ -23,18 +23,26 @@ as the JAR program can be placed in any directory.
 The compiled JAR file will be placed in the target folder.
 
 ## To run
-  `sh run.sh`
+  Run the following command:
+
+  ```
+  sh run.sh
+  ```
   
-  It will run the JAR file.
+  This will execute the JAR file.
 
-  The program will check whether you have `<your .jar program path>/resources/myProp.prop`
- 
-  e.g. your JAR program located in `/home/JavaStudy_PropertiesFile/target/myPropertiesFile.jar`
-
-  The program try to look for `/home/JavaStudy_PropertiesFile/target/resources/myProp.prop`
-  The properties file name and its folder are hard coded.
-
-  If the program cannot find the properties file, it will create one.
+  The program will check for the existence of the properties file at:
+  `<your .jar program path>/resources/myProp.prop`
+  
+  For example, if your JAR program is located at:
+  `/home/JavaStudy_PropertiesFile/target/myPropertiesFile.jar`
+  
+  The program will look for:
+  `/home/JavaStudy_PropertiesFile/target/resources/myProp.prop`
+  
+  The properties file name and its folder are hardcoded.
+  
+  If the program cannot find the properties file, it will create one automatically.
 
 ## To clean
   `sh clean.sh`
