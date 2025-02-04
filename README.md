@@ -45,10 +45,15 @@ The compiled JAR file will be placed in the target folder.
   If the program cannot find the properties file, it will create one automatically.
 
 ## To clean
-  `sh clean.sh`
+  Run the following command:
+
+  ```
+  sh clean.sh
+  ```
   
-  It will remove `target` folder
+  This will remove the `target` folder.
 
 ## To do
-  May be I should use `Maven` or `Ant` to handle the build and clean since most company use them.
-  I also want to handle CSV file and JSON file.
+  - Consider using Maven or Ant to handle the build and clean processes, as these tools are commonly used in most companies.
+
+  - Explore handling CSV and JSON files in future studies.
