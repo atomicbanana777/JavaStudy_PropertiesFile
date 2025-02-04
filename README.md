@@ -1,11 +1,11 @@
 # JavaStudy_PropertiesFile
 Study Java Properties File
 
-In this study, I was using Java Class `Properties` to load and store properties file.
-I also used try-with-resources which is Java SE 7 feature.
+In this study, I used the Java class `Properties` to load and store properties files.
+I also utilized the __try-with-resources__ feature, which is available in Java SE 7 and later.
 
-I think the most difficult part is to get the path of the properties file 
-since your JAR program can be placed in anywhere.
+I found the most challenging part to be determining the path of the properties file,
+as the JAR program can be placed in any directory.
 
 ## To build
   `sh build.sh`
