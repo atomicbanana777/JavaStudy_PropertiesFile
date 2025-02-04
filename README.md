@@ -14,10 +14,13 @@ as the JAR program can be placed in any directory.
   sh build.sh
   ```
   
-  Execute build.sh will build the program, it requires Java JDK (Java SE 7 or later)
-  and Linux environment (To run `sh` command)
-  
-  It will compile and package a JAR file and place them in `target` folder
+  Executing `build.sh` will compile and package the program into a JAR file. This requires:
+
+    - Java JDK (Java SE 7 or later)
+
+    - A Linux environment (to run the sh command)
+
+The compiled JAR file will be placed in the target folder.
 
 ## To run
   `sh run.sh`
