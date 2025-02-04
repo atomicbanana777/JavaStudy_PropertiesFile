@@ -54,6 +54,6 @@ The compiled JAR file will be placed in the target folder.
   This will remove the `target` folder.
 
 ## To do
-  - Consider using Maven or Ant to handle the build and clean processes, as these tools are commonly used in most companies.
+  - Consider using __Maven__ or __Ant__ to handle the build and clean processes, as these tools are commonly used in most companies.
 
-  - Explore handling CSV and JSON files in future studies.
+  - Explore handling __CSV__ and __JSON__ files in future studies.
