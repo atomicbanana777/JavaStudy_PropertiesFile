@@ -16,9 +16,9 @@ as the JAR program can be placed in any directory.
   
   Executing `build.sh` will compile and package the program into a JAR file. This requires:
 
-    - Java JDK (Java SE 7 or later)
+  - Java JDK (Java SE 7 or later)
 
-    - A Linux environment (to run the sh command)
+  - A Linux environment (to run the `sh` command)
 
 The compiled JAR file will be placed in the target folder.
 
