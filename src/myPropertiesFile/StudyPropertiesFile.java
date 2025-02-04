@@ -2,17 +2,15 @@ package myPropertiesFile;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.util.Properties;
 
 public class StudyPropertiesFile{
     public static void main(String[] agrs) throws IOException, URISyntaxException{
-        System.out.println("Hello World!");
+        System.out.println("Hello World!\nThis is Java Properties File Study");
 
         PropertiesFileFacade myPropertieFacade = new PropertiesFileFacade();
-        Properties properties = myPropertieFacade.getProperties();
 
-        System.out.println("email: " + properties.get("email"));
-        System.out.println(myPropertieFacade.getAllKeys());
-        System.out.println(myPropertieFacade.getAllValues());
+        System.out.println("The properties file located in: " + myPropertieFacade.getPropertiesPath());
+        System.out.println("The keys:" + myPropertieFacade.getAllKeys());
+        System.out.println("The values:" + myPropertieFacade.getAllValues());
     }
 }

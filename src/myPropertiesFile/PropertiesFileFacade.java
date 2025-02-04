@@ -68,4 +68,8 @@ public class PropertiesFileFacade {
         return myProperties.values();
     }
 
+    public String getPropertiesPath(){
+        return propertiesPath;
+    }
+
 }
