@@ -8,7 +8,8 @@ I found the most challenging part to be determining the path of the properties f
 as the JAR program can be placed in any directory.
 
 ## To build
-  `sh build.sh`
+  Run the following command:
+  ```sh build.sh```
   
   Execute build.sh will build the program, it requires Java JDK (Java SE 7 or later)
   and Linux environment (To run `sh` command)
